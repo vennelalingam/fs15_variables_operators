@@ -80,8 +80,8 @@ let firstName = "Mia";
 let place = "restaurant";
 let food = "pizza";
 
- console.log(`${firstName} went to the ${place} to eat ${food}.`);
- console.log(firstName +" "+"went to the"+" "+place+" "+"to eat"+" "+food+".");
+console.log(`${firstName} went to the ${place} to eat ${food}.`);
+console.log(firstName +" "+"went to the"+" "+place+" "+"to eat"+" "+food+".");
  
 /*
 8)
@@ -93,7 +93,7 @@ place = "cafe";
 food = "cake";
 //  console.log("Tia" + " went to the " + "cafe", " to eat " + "cake" + ".");
 console.log(`${firstName} went to the ${place} to eat ${food}.`);
- console.log(firstName +" "+"went to the"+" "+place+" "+"to eat"+" "+food+".");
+console.log(firstName +" "+"went to the"+" "+place+" "+"to eat"+" "+food+".");
 
 /*
 9)
@@ -111,7 +111,6 @@ console.log(count) //2
 count++; // operation shows 2 //never use this method
 console.log(count) // value is 3 when u console
 
-
 /*
 10)
 Swap time! In the code below, we want to swap
@@ -127,7 +126,7 @@ you are unsure!
 let a = 1;
 let b = 2;
 
- console.log("BEFORE > a is: ", a, " - and b is: ", b); 
+console.log("BEFORE > a is: ", a, " - and b is: ", b); 
   // a: 1 b: 2
 let c = a;
 a = b;
@@ -140,9 +139,9 @@ console.log("AFTER > a is: ", a, " - and b is: ", b);
 Make the statement below evaluate
 to true!
 */
- console.log(3 !== 4);
- console.log(3 < 4);
- console.log(3 !== "4");
+console.log(3 !== 4);
+console.log(3 < 4);
+console.log(3 !== "4");
 
 /*
 12)
@@ -174,6 +173,9 @@ let warm = true;
 
 console.log(sunny === warm);
 console.log(sunny == warm);
+
+// Negate Strings
+console.log(sunny !== !warm); //true
 /*
 15)
 Practice with everything you've learned!
@@ -226,7 +228,7 @@ modulus = num1 % num2;
 console.log("remainder", modulus); // 0
 
 // keywords Var, Const, Let
- // var has a global scope
+// var has a global scope
 const apple = "fruit";
 //  apple = "mango" // error do not re-assign a constant variable
 // Let n const - local scope which means inside the function we assigned.
@@ -273,3 +275,9 @@ console.log( 2 == "2") // true
 console.log( 2 === "2") //false
 console.log( 2 !== "2") //true
 console.log( 2 != "2") //false
+
+let myname = "vennela";
+let myfirstName = "Vennela";
+console.log(myname === myfirstName) //false
+
+
